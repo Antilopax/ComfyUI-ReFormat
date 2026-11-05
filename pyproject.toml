@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-reformat"
+description = "Scene split, canvas + pad, save chunk and stitch nodes: reformat a video to another aspect ratio with an outpainting model, one chunk at a time, the way antilopax.ai's ReFormat does it."
+version = "0.1.0"
+license = { text = "AGPL-3.0-only" }
+requires-python = ">=3.10"
+dependencies = ["scenedetect[opencv]>=0.6.4"]
+
+[project.urls]
+Repository = "https://github.com/Antilopax/ComfyUI-ReFormat"
+
+[tool.comfy]
+PublisherId = "antilopax"
+DisplayName = "ReFormat (scene split, canvas, stitch)"
+Icon = ""
